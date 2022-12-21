@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import japanize_matplotlib
-%matplotlib inline
 
 data_csv_path = "kakeibo.csv"
 df_kakeibo_data = pd.read_csv(data_csv_path, encoding="shift-jis")
